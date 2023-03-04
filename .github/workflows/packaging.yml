@@ -3,7 +3,7 @@
 # Description: Use Releases file to packaging
 #=====================================================================================
 
-name: Use Releases file to Packaging
+name: Packaging NanopiK2
 
 on:
   repository_dispatch:
@@ -21,60 +21,18 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "s905"
         type: choice
         options:
-          - all
-          - s922x_s905x3_s905d_s912_s905l3a
-          - rock5b_r66s_r68s_beikeyun_l1pro
-          - eaidk-610_king3399_tn3399
-          - vplus_tqc-a01_tanix-tx6
-          - a311d
-          - s922x
-          - s922x-n2
-          - s905x3
-          - s905x3-b
-          - s905x2
-          - s912
-          - s912-m8s
-          - s905d
-          - s905d-ki
-          - s905x
-          - s905w
           - s905
-          - s905l2
-          - s905l3
-          - s905l3a
-          - s905l3b
-          - s905lb-r3300l
-          - rock5b
-          - h88k
-          - r66s
-          - r68s
-          - h66k
-          - h68k
-          - eaidk-610
-          - king3399
-          - tn3399
-          - beikeyun
-          - l1pro
-          - vplus
-          - tqc-a01
-          - tanix-tx6
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "5.15.85_6.1.1"
+        default: "6.1.14"
         type: choice
         options:
-          - 5.4.225_5.10.160_5.15.85
-          - 5.4.225_5.10.160
-          - 5.10.160_5.15.85
-          - 5.15.85_6.1.1
-          - 5.4.225
           - 5.10.160
           - 5.15.85
-          - 6.1.1
           - 6.1.13
           - 6.1.14
       auto_kernel:
