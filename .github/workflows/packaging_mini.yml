@@ -3,7 +3,7 @@
 # Description: Use Releases file to packaging
 #=====================================================================================
 
-name: Packaging NanopiK2
+name: Packaging NanopiK2_MINI
 
 on:
   repository_dispatch:
