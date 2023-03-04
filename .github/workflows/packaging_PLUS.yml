@@ -51,7 +51,7 @@ on:
       openwrt_armvirt_url:
         description: "armvirt_url"
         required: true
-        default: "null"      
+        default: "https://github.com/haiibo/OpenWrt/releases/download/ROOTFS_PLUS/openwrt-armvirt-64-default-rootfs.tar.gz"      
 
 env:
   TZ: America/New_York
