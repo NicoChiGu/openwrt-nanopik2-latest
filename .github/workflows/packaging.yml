@@ -126,3 +126,11 @@ jobs:
             默认WIFI SSID: OpenWrt
             默认密码: 无安全
             首次扩容TF操作: 使用TTY/键盘+HDMI/后台TTYD 运行 openwrt-tf 并阅读提示 确认后按"Y"
+      
+      - name: Delete Old Releases
+        uses: dev-drprasad/delete-older-releases@master
+        with:
+          keep_latest: 15
+          delete_tags: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN2 }}
