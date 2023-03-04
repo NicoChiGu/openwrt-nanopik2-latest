@@ -118,8 +118,9 @@ jobs:
           allowUpdates: true
           token: ${{ secrets.GH_TOKEN2 }}
           body: |
-            Openwrt NanopiK2 固件
-            * 固件信息
+            ## Openwrt NanopiK2 固件
+            ### 固件信息
+            #### 固件分区: boots:**255Mb**/Rootfs:**1024Mb** MMC_ROOTFS2:**1024Mb**
             默认IP: 192.168.1.1
             默认用户名: root
             默认密码: password
