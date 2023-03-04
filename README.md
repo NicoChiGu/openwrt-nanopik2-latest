@@ -1,10 +1,10 @@
-# nanopik2-openwrt
+# nanopik2-openwrt Releases
 
 ##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
 ##### use haiibo/OpenWrt repository [haiibo REPO](https://github.com/haiibo/OpenWrt/)
 ###
 
-### NanopiK2 固件不定期更新 
+### NanopiK2 固件不定期更新 【此库为Action自动编译上传】
 
 
 #### 开发板参数
