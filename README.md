@@ -31,3 +31,7 @@
     Power Interface: DC jack, MicroUSB
     Power Supply: DC 5V/2A
     PCB dimension: 56 x 85mm，6-layer, ENIG
+
+
+## 一些问题
+#### [**Openwrt Docker 使用Bridge桥接模式无法正常访问**](https://www.gaoyaxuan.net/blog/584.html)
