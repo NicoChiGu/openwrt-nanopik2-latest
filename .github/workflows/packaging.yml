@@ -1,0 +1,170 @@
+#=====================================================================================
+# https://github.com/ophub/amlogic-s9xxx-openwrt
+# Description: Use Releases file to packaging
+#=====================================================================================
+
+name: Use Releases file to Packaging
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: "Select the source branch"
+        required: false
+        default: "lede"
+        type: choice
+        options:
+          - lede
+          - official
+          - immortalwrt
+      openwrt_board:
+        description: "Select device board"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - s922x_s905x3_s905d_s912_s905l3a
+          - rock5b_r66s_r68s_beikeyun_l1pro
+          - eaidk-610_king3399_tn3399
+          - vplus_tqc-a01_tanix-tx6
+          - a311d
+          - s922x
+          - s922x-n2
+          - s905x3
+          - s905x3-b
+          - s905x2
+          - s912
+          - s912-m8s
+          - s905d
+          - s905d-ki
+          - s905x
+          - s905w
+          - s905
+          - s905l2
+          - s905l3
+          - s905l3a
+          - s905l3b
+          - s905lb-r3300l
+          - rock5b
+          - h88k
+          - r66s
+          - r68s
+          - h66k
+          - h68k
+          - eaidk-610
+          - king3399
+          - tn3399
+          - beikeyun
+          - l1pro
+          - vplus
+          - tqc-a01
+          - tanix-tx6
+      openwrt_kernel:
+        description: "Select kernel version"
+        required: false
+        default: "5.15.85_6.1.1"
+        type: choice
+        options:
+          - 5.4.225_5.10.160_5.15.85
+          - 5.4.225_5.10.160
+          - 5.10.160_5.15.85
+          - 5.15.85_6.1.1
+          - 5.4.225
+          - 5.10.160
+          - 5.15.85
+          - 6.1.1
+          - 6.1.13
+          - 6.1.14
+      auto_kernel:
+        description: "Auto use the latest kernel"
+        required: false
+        default: true
+        type: boolean
+      kernel_repo:
+        description: "Set the kernel repository"
+        required: false
+        default: "https://github.com/ophub/kernel/tree/main/pub"
+      openwrt_size:
+        description: "Set the rootfs size(Unit: MiB)"
+        required: false
+        default: "1024"
+      openwrt_armvirt_url:
+        description: "armvirt_url"
+        required: true
+        default: "null"      
+
+env:
+  TZ: America/New_York
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    if: ${{ github.event.repository.owner.id }} == ${{ github.event.sender.id }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Initialization environment
+        id: init
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          docker rmi `docker images -q`
+          [[ -n "${AGENT_TOOLSDIRECTORY}" ]] && sudo rm -rf "${AGENT_TOOLSDIRECTORY}"
+          sudo rm -rf /usr/share/dotnet /etc/apt/sources.list.d /usr/local/lib/android 2>/dev/null
+          sudo -E apt-get -y update
+          sudo -E apt-get -y purge azure-cli ghc* zulu* llvm* firefox google* dotnet* powershell openjdk* mongodb* moby* || true
+          sudo -E apt-get -y install $(curl -fsSL https://is.gd/depend_ubuntu2204_openwrt)
+          sudo -E systemctl daemon-reload
+          #sudo -E apt-get -y full-upgrade
+          sudo -E apt-get -y autoremove --purge
+          sudo -E apt-get clean
+          sudo timedatectl set-timezone "${TZ}"
+          echo "OPENWRT_RELEASE=${{ inputs.source_branch }}" >> ${GITHUB_ENV}
+          echo "status=success" >> ${GITHUB_OUTPUT}
+
+      - name: Download OpenWrt Armvirt firmware
+        id: down
+        if: ${{ steps.init.outputs.status }} == 'success' && !cancelled()
+        run: |
+          armvirt_tarfile_path="openwrt/bin/targets/armvirt/64"
+          
+          [[ -d "${armvirt_tarfile_path}" ]] || mkdir -p ${armvirt_tarfile_path}
+
+          wget -q -P ${armvirt_tarfile_path} ${{ inputs.openwrt_armvirt_url }}
+          [[ "${?}" -ne "0" ]] && echo "The armvirt file download failed!" && exit 1
+
+          echo "status=success" >> ${GITHUB_OUTPUT}
+
+      - name: Build OpenWrt firmware [ ${{ env.OPENWRT_RELEASE }} ]
+        if: ${{ steps.down.outputs.status }} == 'success' && !cancelled()
+        uses: NicoChiGu/amlogic-nanopik2-openwrt@main
+        with:
+          openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
+          openwrt_board: ${{ inputs.openwrt_board }}
+          openwrt_kernel: ${{ inputs.openwrt_kernel }}
+          auto_kernel: ${{ inputs.auto_kernel }}
+          kernel_repo: ${{ inputs.kernel_repo }}
+          openwrt_size: ${{ inputs.openwrt_size }}
+          gh_token: ${{ secrets.GH_TOKEN2 }}
+
+      - name: Upload OpenWrt Firmware to Release
+        uses: ncipollo/release-action@main
+        if: ${{ env.PACKAGED_STATUS }} == 'success' && !cancelled()
+        with:
+          tag: OpenWrt_${{ env.OPENWRT_RELEASE }}_${{ env.PACKAGED_OUTPUTDATE }}
+          artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
+          allowUpdates: true
+          token: ${{ secrets.GH_TOKEN2 }}
+          body: |
+            Openwrt NanopiK2 固件
+            * 固件信息
+            默认IP: 192.168.1.1
+            默认用户名: root
+            默认密码: password
+            默认WIFI SSID: OpenWrt
+            默认密码: 无安全
+            首次扩容TF操作: 使用TTY/键盘+HDMI/后台TTYD 运行 openwrt-tf 并阅读提示 确认后按"Y"
