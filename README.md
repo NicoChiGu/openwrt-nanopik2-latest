@@ -1,11 +1,13 @@
 # nanopik2-openwrt Releases
 
+
 ##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
 ##### use haiibo/OpenWrt repository [haiibo REPO](https://github.com/haiibo/OpenWrt/)
-###
+###### amlogic S905的NanopiK2未在ophub/amlogic-s9xxx-openwrt项目中|armbian已不再为NanopiK2维护
+###### 已经从代码中做了部分修改以达到NanopiK2可以正确被引导
 
+--------------------------
 ### NanopiK2 固件不定期更新 【此库为Action自动编译上传】
-
 
 #### 开发板参数
 
@@ -31,7 +33,6 @@
     Power Interface: DC jack, MicroUSB
     Power Supply: DC 5V/2A
     PCB dimension: 56 x 85mm，6-layer, ENIG
-
 
 ## 一些问题
 ### 1. [**Openwrt Docker 使用Bridge桥接模式无法正常访问**](https://www.gaoyaxuan.net/blog/584.html) 
