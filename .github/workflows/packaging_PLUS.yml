@@ -118,13 +118,13 @@ jobs:
           body: |
             ## Openwrt NanopiK2 固件
             ### 固件信息
-            #### 固件分区: boots:**255Mb**/Rootfs:**1024Mb** MMC_ROOTFS2:**1024Mb**
+            #### 固件分区: boots:**255Mb**/Rootfs:**1024Mb**
             默认IP: 192.168.1.1
             默认用户名: root
             默认密码: password
             默认WIFI SSID: OpenWrt
             默认密码: 无安全
-            首次扩容TF操作: 使用TTY/键盘+HDMI/后台TTYD 运行 openwrt-tf 并阅读提示 确认后按"Y"
+            首次扩容TF操作: 使用串口/键盘+HDMI/网页TTYD 运行 openwrt-tf 并阅读提示 确认后按"Y"
       
       - name: Delete Old Releases
         uses: dev-drprasad/delete-older-releases@master
