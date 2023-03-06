@@ -16,8 +16,6 @@ on:
         type: choice
         options:
           - lede
-          - official
-          - immortalwrt
       openwrt_board:
         description: "Select device board"
         required: false
