@@ -37,3 +37,5 @@
 ## 一些问题
 ### 1. [**Openwrt Docker 使用Bridge桥接模式无法正常访问**](https://www.gaoyaxuan.net/blog/584.html) 
 #### 或将 Docker => 设置 => DockerMan设置 => 允许访问端口 **【设置为eth0】** //因单臂路由器不进行桥接网口时没有brlan这个东西
+
+####单臂路由防火墙=>'iptables -t nat -I POSTROUTING -j FULLCONENAT'
