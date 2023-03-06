@@ -29,7 +29,7 @@ on:
         description: "Select kernel version"
         required: false
         default: "6.1.14"
-        type: choice
+        #type: choice
         options:
           - 5.10.160
           - 5.15.85
