@@ -1,13 +1,18 @@
-# nanopik2-openwrt Releases
+# NanopiK2 S905 Openwrt固件
 
 
 ##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
 ##### use haiibo/OpenWrt repository [haiibo REPO](https://github.com/haiibo/OpenWrt/)
+##### 使用 ophub/amlogic-s9xxx-openwrt 库
+##### 使用 haiibo/OpenWrt 库编译的Plus版进行打包
 ###### amlogic S905的NanopiK2未在ophub/amlogic-s9xxx-openwrt项目中|armbian已不再为NanopiK2维护
 ###### 已经从代码中做了部分修改以达到NanopiK2可以正确被引导
 
 --------------------------
 ### NanopiK2 固件不定期更新 【此库为Action自动编译上传】
+
+##### 更新使用`晶晨宝盒`(优先备份)
+##### 目前测试较为稳定固件(内核6.0.7)[下载](https://github.com/NicoChiGu/nanopik2-openwrt/releases/download/openwrt_s905_k6.0.7_2022.11.04/openwrt_nanopik2_k6.0.7.img.gz)
 
 #### 开发板参数
 
