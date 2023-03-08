@@ -10,8 +10,6 @@
 
 --------------------------
 ### NanopiK2 固件不定期更新 【此库为Action自动编译上传】
-
-##### 更新使用`晶晨宝盒`(优先备份)
 ##### 目前测试较为稳定固件(内核6.0.7)[下载](https://github.com/NicoChiGu/nanopik2-openwrt/releases/download/openwrt_s905_k6.0.7_2022.11.04/openwrt_nanopik2_k6.0.7.img.gz)
 
 #### 开发板参数
@@ -38,6 +36,8 @@
     Power Interface: DC jack, MicroUSB
     Power Supply: DC 5V/2A
     PCB dimension: 56 x 85mm，6-layer, ENIG
+
+##### 更新使用`晶晨宝盒`(优先备份)
 
 ## 一些问题
 ### 1. [**Openwrt Docker 使用Bridge桥接模式无法正常访问**](https://www.gaoyaxuan.net/blog/584.html) 
