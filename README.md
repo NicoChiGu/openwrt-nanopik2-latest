@@ -1,7 +1,8 @@
 # NanopiK2 S905 Openwrt固件
 
 
-##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
+##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB/openwrt REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
+##### Kernel use ophub/kernel repository [OPHUB/kernel REPO](https://github.com/ophub/kernel)
 ##### use haiibo/OpenWrt repository [haiibo REPO](https://github.com/haiibo/OpenWrt/)
 ##### 使用 ophub/amlogic-s9xxx-openwrt 库
 ##### 使用 haiibo/OpenWrt 库编译的Plus版进行打包
