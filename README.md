@@ -40,7 +40,11 @@
     Power Supply: DC 5V/2A
     PCB dimension: 56 x 85mm，6-layer, ENIG
 
-##### 更新使用`晶晨宝盒`(优先备份)
+<img src="https://cdn.jsdelivr.net/gh/NicoChiGu/openwrt-nanopik2-latest@main/assets/picture.png">
+
+
+
+##### 更新可使用`晶晨宝盒`(优先备份)
 
 ## 一些问题
 ### 1. [**Openwrt Docker 使用Bridge桥接模式无法正常访问**](https://www.gaoyaxuan.net/blog/584.html) 
