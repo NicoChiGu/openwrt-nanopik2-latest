@@ -44,8 +44,8 @@
 
 <img src="https://cdn.jsdelivr.net/gh/NicoChiGu/openwrt-nanopik2-latest@main/assets/picture.png">
 
-
 <br>
+
 ##### 更新可使用`晶晨宝盒`(优先备份)
 
 ## 一些问题
