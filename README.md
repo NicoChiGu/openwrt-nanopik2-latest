@@ -13,7 +13,7 @@
 
 --------------------------
 ### NanopiK2 固件每周五拉取打包 【此库为Action自动编译上传】
-#### 固件分为 stable 和 fippy 两个内核 stable没测试过自行测试.
+#### 固件分为 stable 和 fippy 两个内核 stable无测试过,自行测试.
 ##### 旧固件链接[【天翼云盘】](#)|[【Alist】](https://alist.terata.icu/Onedrive/openwrt/build)
 ##### 目前测试较为稳定固件(内核6.0.7)[【Github下载】](https://github.com/NicoChiGu/nanopik2-openwrt/releases/download/openwrt_s905_k6.0.7_2022.11.04/openwrt_nanopik2_k6.0.7.img.gz)  | [【Onedrives直链】](https://alist.terata.icu/d/Onedrive/openwrt/stable/openwrt_nanopik2_k6.0.7.img.gz)
 
