@@ -5,7 +5,7 @@
 | :-------------: | :-------------: | :-------------: |
 | stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_stable/total?label=stable&style=for-the-badge)](#) |
 | flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_flippy/total?label=flippy+&style=for-the-badge)](#) |
-| flippy+O | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_oflippy/total?label=flippy+o&style=for-the-badge)](#) |
+| flippy+o | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_oflippy/total?label=flippy_o&style=for-the-badge)](#) |
 
 
 
