@@ -3,9 +3,9 @@
 
 | 内核版本 | 固件下载 |
 | :-------------: | :-------------: |
-| stable | ![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
-| flippy+ | ![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
-| flippy+O | ![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
+| stable | [![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
+| flippy+ | [![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
+| flippy+O | [![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
 
 
 
