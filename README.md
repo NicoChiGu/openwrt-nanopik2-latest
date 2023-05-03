@@ -1,7 +1,7 @@
 # NanopiK2 S905 Openwrt固件
 <img alt="Releases Downloads" src="https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/total?style=for-the-badge"> <img alt="Releases Date" src="https://img.shields.io/github/release-date/NicoChiGu/openwrt-nanopik2-latest?style=for-the-badge">
 
-| 内核版本 | 固件下载 | 编译状态 |
+| 内核版本 | 固件下载 | 状态 |
 | :-------------: | :-------------: | :-------------: |
 | stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_stable/total?label=stable&style=for-the-badge)](#) |
 | flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_flippy/total?label=flippy+&style=for-the-badge)](#) |
