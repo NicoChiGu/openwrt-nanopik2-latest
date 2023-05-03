@@ -1,6 +1,13 @@
 # NanopiK2 S905 Openwrt固件
 <img alt="Releases Downloads" src="https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/total?style=for-the-badge"> <img alt="Releases Date" src="https://img.shields.io/github/release-date/NicoChiGu/openwrt-nanopik2-latest?style=for-the-badge">
 
+| 内核版本 | 固件下载 |
+| :-------------: | :-------------: |
+| stable | ![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
+| flippy+ | ![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
+| flippy+O | ![](https://img.shields.io/badge/-下载-FFFFFF.svg)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) |
+
+
 
 ##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB/openwrt REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
 ##### Kernel use ophub/kernel repository [OPHUB/kernel REPO](https://github.com/ophub/kernel)
