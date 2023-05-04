@@ -3,9 +3,9 @@
 
 | 内核版本 | 固件下载 | 状态 |
 | :-------------: | :-------------: | :-------------: |
-| stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_stable/status.svg)](#) |
-| flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy/status.svg)](#) |
-| flippy+o | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy+o/status.svg)](#) |
+| stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_stable) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_stable/status.svg)](#) |
+| flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_flippy%2B) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy/status.svg)](#) |
+| flippy+o | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_flippy%2Bo) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy+o/status.svg)](#) |
 
 
 
