@@ -3,9 +3,9 @@
 
 | 内核版本 | 固件下载 | 状态 |
 | :-------------: | :-------------: | :-------------: |
-| stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_stable/total?label=stable&style=for-the-badge)](#) |
-| flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_flippy/total?label=flippy+&style=for-the-badge)](#) |
-| flippy+o | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/NanopiK2_oflippy/total?label=flippy_o&style=for-the-badge)](#) |
+| stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_stable/status.svg)](#) |
+| flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy/status.svg)](#) |
+| flippy+o | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy+o/status.svg)](#) |
 
 
 
@@ -58,6 +58,8 @@
 - **不保证完全无 BUG！**
 
 - **不对任何因使用本固件所遭受的任何损失承担责任！**
+
+<br>
 
 ## 一些问题
 ### 1. [**Openwrt Docker 使用Bridge桥接模式无法正常访问**](https://www.gaoyaxuan.net/blog/584.html) 
