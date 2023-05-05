@@ -63,6 +63,8 @@
 
 - **不对任何因使用本固件所遭受的任何损失承担责任！**
 
+- **如需联系-请致[Telegram](https://t.me/Chi_Gu) / Discord-(JackeyTERA#0668)**
+
 <br>
 
 ## 一些问题
