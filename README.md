@@ -12,9 +12,12 @@
 
 ##### use ophub/amlogic-s9xxx-openwrt repository [OPHUB/openwrt REPO](https://github.com/ophub/amlogic-s9xxx-openwrt)
 ##### Kernel use ophub/kernel repository [OPHUB/kernel REPO](https://github.com/ophub/kernel)
-##### use haiibo/OpenWrt repository [haiibo REPO](https://github.com/haiibo/OpenWrt/)
+##### use haiibo/OpenWrt repository [haiibo REPO](https://github.com/haiibo/OpenWrt)
+##### use breakings/OpenWrt repository [breakings REPO](https://github.com/breakings/OpenWrt)
+
 ##### 使用 ophub/amlogic-s9xxx-openwrt 库
 ##### 使用 haiibo/OpenWrt 库编译的Plus版进行打包
+##### 使用 breakings/OpenWrt 库编译的高大全进行打包
 ##### [恩山无线早期测试](https://www.right.com.cn/forum/thread-8261176-1-1.html)
 ###### amlogic S905的NanopiK2未在ophub/amlogic-s9xxx-openwrt项目中|armbian已不再为NanopiK2维护
 ###### 已经从代码中做了部分修改以达到NanopiK2可以正确被引导
