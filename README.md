@@ -6,7 +6,7 @@
 | haiibo_PLUS | stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_stable) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_stable/status.svg)](#) |
 | haiibo_PLUS | flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_flippy%2B) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy%2B/status.svg)](#) |
 | haiibo_PLUS | flippy+o | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_flippy%2Bo) | [![](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/download/NanopiK2_flippy%2Bo/status.svg)](#) |
-| 暴躁老哥_高大全 | stable | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_manul_build) | 手动构建[![](#)](#) |
+| 暴躁老哥_高大全 | flippy+ | [![](https://img.shields.io/badge/-%E4%B8%8B%E8%BD%BD-red?style=for-the-badge)](https://github.com/NicoChiGu/openwrt-nanopik2-latest/releases/tag/NanopiK2_manul_build) | 手动构建[![](#)](#) |
 
 
 
