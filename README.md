@@ -1,4 +1,4 @@
-# NanopiK2 S905 Openwrt固件
+# NanopiK2 S905 Openwrt固件【维护中】
 <img alt="Releases Downloads" src="https://img.shields.io/github/downloads/NicoChiGu/openwrt-nanopik2-latest/total?style=for-the-badge"> <img alt="Releases Date" src="https://img.shields.io/github/release-date/NicoChiGu/openwrt-nanopik2-latest?style=for-the-badge">
 
 | 固件包 | 内核版本 | 固件下载 | 状态 |
